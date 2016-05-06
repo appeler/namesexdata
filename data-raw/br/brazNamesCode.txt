@@ -1,0 +1,16 @@
+Author: Luke Sonnet
+Dataset: brazilNamesGenderRatio.csv
+Character Encoding: ISO-8859-1 (this is a carry over from how the Brazilian TSE encodes their characters)
+Date: 2015-02-12
+
+Size: 74650 x 6
+
+Variables: 'firstName' - all of the 'first names' that were found in the original list of candidates
+	   'total' - the total number of candidates with that first name
+	   'female' - the number of candidates with that first name who were female
+	   'male' - the number of candidates with that first name who were male
+	   'totalFound' - the sum of 'female' and 'male', this is slightly smaller than total because some candidates had missing gender data
+	   'prFemale' - the proportion of all candidates with that first name who are females (among those whose gender is known)
+
+Notes: Some of the names contain errors. All I've done is take the first set of characters before a space in the original data. All errors should then those of the people who entered the data originally. The problem should not be too bad, especially if you are matching from a list of well formed names. Nonetheless, be warned!
+
