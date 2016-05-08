@@ -9,7 +9,7 @@ The datasets in this package support the [namesex](https://github.com/soodoku/na
 ### The package contains the following datasets:
 
 * [Indian Politician Data](https://github.com/soodoku/indian-politician-bios)  
-* [Brazilian Politician Data](http://lukesonnet.github.io/data/)
+* [Brazilian Politician Data](https://github.com/lukesonnet/brazilNames)
 * [Indian Names Google Photo and Clarifai Data](https://github.com/soodoku/clarifai_gender)
 
 ### Installation
