@@ -1,9 +1,10 @@
 Package: namesexdata
 Title: Datasets for International Names
 Version: 0.1
-Authors@R: person("Gaurav", "Sood", email = "gsood07@gmail.com", role = c("aut", "cre"))
+Authors@R: c(person("Gaurav", "Sood", email = "gsood07@gmail.com", role = c("aut", "cre")),
+			 person("Luke", "Sonnet", email = "luke.sonnet@gmail.com", role = c("aut")))
 Description: The datasets in this package are used in the 'namesex'
-    package to predict gender from first names.
+    package to predict sex of the person from the first name.
 Depends:
     R (>= 3.2.5)
 License: MIT + file LICENSE
