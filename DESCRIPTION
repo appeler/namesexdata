@@ -6,7 +6,7 @@ Description: The datasets in this package are used in the 'namesex'
     package to predict gender from first names.
 Depends:
     R (>= 3.2.5)
-License: GPL v3 + file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Author: Gaurav Sood <gsood07@gmail.com> [aut, cre]
