@@ -1,6 +1,6 @@
 Package: namesexdata
 Title: Datasets for International Names
-Version: 0.1
+Version: 0.1.0
 Authors@R: c(person("Gaurav", "Sood", email = "gsood07@gmail.com", role = c("aut", "cre")),
 			 person("Luke", "Sonnet", email = "luke.sonnet@gmail.com", role = c("aut")))
 Description: The datasets in this package are used in the 'namesex'
