@@ -12,7 +12,6 @@
 #'
 #' @format A data frame with 74650 observations and 6 variables
 #' @author Luke Sonnet
-#' @export
 "brazilian_pols"
 
 #' Indian Politician Dataset
@@ -26,5 +25,4 @@
 #'   \url{http://www.myneta.info/}
 #' @format A data frame with observations and 4 variables
 #' @author Gaurav Sood
-#' @export
 "indian_pols"
