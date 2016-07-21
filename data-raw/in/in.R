@@ -17,4 +17,4 @@ indian_pols <- indian_pols[!duplicated(indian_pols$politician_name), ]
 
 # Fix encoding
 Encoding(indian_pols$politician_name) <- "latin1"
-use_data(indian_pols, compress="bzip2", overwrite=TRUE)
+devtools::use_data(indian_pols, compress="bzip2", overwrite=TRUE)
