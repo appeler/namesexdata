@@ -22,7 +22,7 @@ dat$pr_women <- dat$female/dat$total_found
 out <- dat[order(dat$pr_women, dat$first_name, dat$total_found),]
 
 ## Create mean without accents
-out$first_name_noaccent <- as.factor(iconv(out$first_name, to = "UTF-8//TRANSLIT"))
+out$first_name_noaccent <- as.factor(iconv(out$first_name, to = "ASCII//TRANSLIT"))
 pr_women_noaccent <- by(out, out$first_name_noaccent, function(x) weighted.mean(x$pr_women, x$total_found))
 out$pr_women_noaccent <- pr_women_noaccent[out$first_name_noaccent]
 out$first_name_noaccent <- as.character(out$first_name_noaccent)
