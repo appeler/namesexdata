@@ -1,6 +1,6 @@
 ## International Name Sex Data
-[![Build Status](https://travis-ci.org/soodoku/namesexdata.svg?branch=master)](https://travis-ci.org/soodoku/namesexdata)
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/pxxj91y3ngw42wt2?svg=true)](https://ci.appveyor.com/project/soodoku/namesexdata)
+[![Build Status](https://travis-ci.org/appeler/namesexdata.svg?branch=master)](https://travis-ci.org/appeler/namesexdata)
+[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/pxxj91y3ngw42wt2?svg=true)](https://ci.appveyor.com/project/appeler/namesexdata)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/namesexdata)](http://cran.r-project.org/package=namesexdata)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/namesexdata)
 
