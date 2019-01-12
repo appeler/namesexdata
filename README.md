@@ -19,7 +19,7 @@ To get the current development version from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("soodoku/namesexdata")
+devtools::install_github("appeler/namesexdata")
 ```
 
 ### License
