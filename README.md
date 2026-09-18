@@ -22,6 +22,16 @@ To get the current development version from GitHub:
 devtools::install_github("appeler/namesexdata")
 ```
 
+### Privacy
+
+The raw Brazilian candidate files in `data-raw/br/data/rawData/` are archived
+TSE (Tribunal Superior Eleitoral) exports. Their direct identifiers — CPF,
+título eleitoral, and e-mail — have been blanked, here and throughout the
+repository's history. The package uses only first name and sex; the blanked
+columns were never read, and the shipped datasets are unchanged. To request
+removal of other personal data, open an issue or e-mail the maintainer listed
+in `DESCRIPTION`.
+
 ### License
 
 Scripts are released under the [MIT License](https://opensource.org/licenses/MIT).
