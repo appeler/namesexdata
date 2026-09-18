@@ -1,0 +1,8 @@
+namesexdata (development)
+
+* brazilian_pols: sex is now read from its label rather than a fixed column,
+  whose position differs between general and municipal election files.
+  Candidates from the 1998, 2002, 2006, 2010 and 2014 elections are now
+  classified (105,144 more), 1,961 names no longer have an NA pr_women, and
+  the first candidate of each raw file is no longer dropped.
+* Raw TSE files: CPF, titulo eleitoral and e-mail blanked throughout history.
