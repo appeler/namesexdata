@@ -5,3 +5,5 @@
 ^dev$
 ^cran_comments.md$
 ^data-raw$
+^\.codespellrc$
+^\.github$
